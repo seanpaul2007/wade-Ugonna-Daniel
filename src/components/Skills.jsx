@@ -2,15 +2,15 @@ import '../styles/Skill.css';
 
 const Skills = () => {
   const technicalSkills = [
-    { name: 'HTML', icon: 'g', level: 95 },
-    { name: 'CSS', icon: 'f', level: 90 },
-    { name: 'JavaScript', icon: 'd', level: 85 },
-    { name: 'React', icon: 's', level: 80 },
-    { name: 'Node.js', icon: 'a', level: 20 },
-    { name: 'Tailwind CSS', icon: 'x', level: 90 },
+    { name: 'HTML 5', icon: 'fi fi-brands-html5', level: 100 },
+    { name: 'CSS', icon: 'fi fi-brands-css3-alt', level: 90 },
+    { name: 'JavaScript', icon: 'fi fi-brands-javascript-alt', level: 85 },
+    { name: 'React', icon: '', level: 85 },
+    { name: 'Node.js', icon: '', level: 35 },
     { name: 'MongoDB', icon: 'v', level: 50 },
-    { name: 'Git', icon: 'n', level: 85 },
-    { name: 'Figma', icon: 'm', level: 85 },
+    { name: 'Git', icon: '', level: 85 },
+    { name: 'Figma', icon: '', level: 95 },
+    { name: 'Django', icon: '', level: 55 },
   ];
 
   const professionalSkills = [
@@ -18,7 +18,7 @@ const Skills = () => {
     { name: 'Teamwork', level: 95 },
     { name: 'Problem Solving', level: 85 },
     { name: 'Creativity', level: 80 },
-    { name: 'Project Management', level: 75 },
+    { name: 'Project Management', level: 80 },
     { name: 'Time Management', level: 85 },
   ];
 
@@ -34,7 +34,7 @@ const Skills = () => {
               {technicalSkills.map((skill, index) => (
                 <div className="skill-item" key={index}>
                   <div className="skill-icon">
-                    {skill.icon}
+                    <i className={skill.icon}></i>
                   </div>
                   <div className="skill-info">
                     <h4>{skill.name}</h4>

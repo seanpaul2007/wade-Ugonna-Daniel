@@ -4,9 +4,14 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-container">
+        <div className="hero-image">
+          <div className="image-container">
+            { <img src="./assets/images/Sean.jpg" alt="" />}
+          </div>
+        </div>
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Hi, I am <span>IGWE BRIGHT SUNDAY</span></h1>
+            <h1>Hi, I am <span>Wade Ugonna Daniel</span></h1>
             <h2>Frontend Developer</h2>
             <p>I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.</p>
             <div className="hero-buttons">
@@ -15,20 +20,18 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero-socials">
-            <a href="https://github.com/br-1-ght" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-github"></i>
+            <a href="https://wa.me/+2349048130982" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-whatsapp"></i>
             </a>
-            <a href="https://www.linkedin.com/in/bright-igwe-a705ba361" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-linkedin"></i>
+            <a href="https://www.instagram/seanpaul524" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-instagram"></i>
             </a>
-            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-twitter"></i>
+            <a href="https://tiktok/danielwade05" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-tiktok"></i>
             </a>
-          </div>
-        </div>
-        <div className="hero-image">
-          <div className="image-container">
-            <img src="./assets/images/bright1.jpg" alt="Igwe Bright" />
+            <a href="https://twitter/wade" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-twitter"></i>
+            </a>
           </div>
         </div>
       </div>
