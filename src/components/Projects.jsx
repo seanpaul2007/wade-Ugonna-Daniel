@@ -88,13 +88,7 @@ const Projects = () => {
             Django
             
           </button>
-           <button 
-            className={`filter-btn ${filter === 'javascript' ? 'active' : ''}`}
-            onClick={() => setFilter('javascript')}
-          >
-            JavaScript
-            
-          </button>
+           
            <button 
             className={`filter-btn ${filter === 'javascript' ? 'active' : ''}`}
             onClick={() => setFilter('Figma')}
