@@ -4,17 +4,17 @@ const Skills = () => {
   const technicalSkills = [
     { name: 'HTML 5', icon: 'fi fi-brands-html5', level: 100 },
     { name: 'CSS', icon: 'fi fi-brands-css3-alt', level: 90 },
-    { name: 'JavaScript', icon: 'fi fi-brands-javascript-alt', level: 85 },
-    { name: 'React', icon: '', level: 85 },
-    { name: 'Node.js', icon: '', level: 35 },
-    { name: 'MongoDB', icon: 'v', level: 50 },
-    { name: 'Git', icon: '', level: 85 },
-    { name: 'Figma', icon: '', level: 95 },
-    { name: 'Django', icon: '', level: 55 },
+    { name: 'JavaScript', icon: 'fi fi-brands-javascript', level: 85 },
+    { name: 'React', icon: 'fi fi-brands-react', level: 85 },
+    { name: 'Node.js', icon: 'fi fi-brands-node.js', level: 35 },
+    { name: 'MongoDB', icon: 'fi fi-brands-mongodb', level: 50 },
+    { name: 'Git', icon: 'fi fi-brands-git', level: 85 },
+    { name: 'Figma', icon: 'fi fi-brands-figma', level: 95 },
+    { name: 'Django', icon: 'fi fi-brands-Django', level: 55 },
   ];
 
   const professionalSkills = [
-    { name: 'Communication', level: 90 },
+    { name: 'Communication', level: 80 },
     { name: 'Teamwork', level: 95 },
     { name: 'Problem Solving', level: 85 },
     { name: 'Creativity', level: 80 },

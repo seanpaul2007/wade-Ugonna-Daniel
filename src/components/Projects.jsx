@@ -9,7 +9,7 @@ const Projects = () => {
       id: 1,
       title: 'E-commerce Website',
       category: 'react',
-      image: './assets/images/screen.png.png',
+      image: './assets/images/screen.png',
       demo: 'https://awesome-shop-flame.vercel.app/',
       description: 'A full-featured e-commerce platform built with React.',
       tags: ['React', 'Context API', 'API']
@@ -22,6 +22,33 @@ const Projects = () => {
       demo: 'https://rational-recipes.vercel.app/',
       description: 'A featured Food blog platform built with Javascript.',
       tags: ['Javascript', 'CSS']
+    },
+     {
+      id: 3,
+      title: 'Business website',
+      category: 'Django',
+      image: './assets/images/Screens.png',
+      demo: 'https://Wades-Solution.vercel.app/',
+      description: 'A full-featured business platform bulit with Django.',
+      tags: ['Django','Python','CSS']
+    },
+     {
+      id: 3,
+      title: 'E-commerce website',
+      category: 'javascript',
+      image: './assets/images/Bags.png',
+      demo: 'https://BAGSIFY.vercel.app/',
+      description: 'A full-featured E-commerce platform bulit with Javascript.',
+      tags: ['Javascript','CSS']
+    },
+     {
+      id: 3,
+      title: 'Resturant app',
+      category: 'Figma',
+      image: './assets/images/Figma.png',
+      demo: 'https://BAGSIFY.vercel.app/',
+      description: 'A Full-featured wireframe Application with UI/UX.',
+      tags: ['UI/UX']
     },
   ];
 
@@ -54,6 +81,28 @@ const Projects = () => {
             JavaScript
             
           </button>
+           <button 
+            className={`filter-btn ${filter === 'Django' ? 'active' : ''}`}
+            onClick={() => setFilter('Django')}
+          >
+            Django
+            
+          </button>
+           <button 
+            className={`filter-btn ${filter === 'javascript' ? 'active' : ''}`}
+            onClick={() => setFilter('javascript')}
+          >
+            JavaScript
+            
+          </button>
+           <button 
+            className={`filter-btn ${filter === 'javascript' ? 'active' : ''}`}
+            onClick={() => setFilter('Figma')}
+          >
+            Figma
+            
+          </button>
+          
           
         </div>
         
