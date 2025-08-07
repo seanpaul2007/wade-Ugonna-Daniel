@@ -46,7 +46,7 @@ const Projects = () => {
       title: 'Resturant app',
       category: 'Figma',
       image: './assets/images/Figma.png',
-      demo: 'https://BAGSIFY.vercel.app/',
+      demo: 'https://www.figma.com/design/JtISTBLCB3qA9IgiBYwawY/simple-mobile-app?node-id=238-2&t=MfsHecb19P7sqAQH-1',
       description: 'A Full-featured wireframe Application with UI/UX.',
       tags: ['UI/UX']
     },
